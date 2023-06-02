@@ -1,0 +1,19 @@
+
+@media (width >= 768px){
+    .contact_button{
+        color: white;
+        border: none;
+        background: linear-gradient(to bottom right, #005eff, #c72eff);
+    }
+    .contact_button:hover{
+        color: white;
+        background: linear-gradient(to bottom left, #005eff, #c72eff);
+    }
+}
+@media (width <= 767px){
+    .contact_button{
+        color: white;
+        border: none;
+        background: linear-gradient(to bottom right, #005eff, #c72eff);
+    }
+}
