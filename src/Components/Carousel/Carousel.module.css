@@ -1,0 +1,25 @@
+.carouselTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.strongText{
+    background: -webkit-linear-gradient(left top, #005eff, #c72eff);
+    background: linear-gradient(to bottom right, #005eff, #c72eff);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+.carouselContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.carouselImages{
+    display: flex;
+    justify-content: center;
+}
+.carouselImage{
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+}
