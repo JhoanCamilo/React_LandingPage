@@ -2,6 +2,9 @@
     .heroContainer{
         height: 87vh;
         overflow: hidden;
+        background-color: #add8fc;
+        border-bottom-left-radius: 50% 42%;
+        border-bottom-right-radius: 10% 42%;
     }
     .CTA_info{
         width: 50%;

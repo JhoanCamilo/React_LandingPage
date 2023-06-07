@@ -5,7 +5,7 @@ import completed from './completed.svg'
 export function Carousel() {
     return(
         <section className='container-fluid'>
-            <h3 className={Styles.carouselTitle}>From your idea to <strong className={`${Styles.strongText}`}>reallity</strong></h3>
+            <h3 className={Styles.carouselTitle}>From your <strong className={`${Styles.strongText}`}>idea</strong> to <strong className={`${Styles.strongText}`}>reallity</strong></h3>
             <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsum, libero consectetur consequatur ad maiores? Distinctio cum id nobis, nemo qui consectetur vero, ducimus soluta impedit iste fuga aspernatur officia!</p>
             <div id="carouselExampleInterval" className={`carousel slide ${Styles.carouselContainer}`} data-bs-ride="carousel">
                 <div className={`carousel-inner ${Styles.carouselImages}`}>

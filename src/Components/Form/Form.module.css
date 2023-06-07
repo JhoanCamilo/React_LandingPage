@@ -1,0 +1,46 @@
+.sendBtn{
+    width: 100%;
+    color: white;
+    border: none;
+    background: linear-gradient(to bottom right, #005eff, #c72eff);
+}
+.contactTitle{
+    width: 100%;
+    text-align: center;
+}
+.strongText{
+    background: -webkit-linear-gradient(left top, #005eff, #c72eff);
+    background: linear-gradient(to bottom right, #005eff, #c72eff);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+@media (width >= 768px) {
+    .formContainer{
+        width:450px;
+        padding: 15px;
+    }
+    .basicInfo{
+        display: flex;
+    }
+    textarea{
+        resize: none;
+    }
+    .sendBtn:hover{
+        width: 100%;
+        color: white;
+        border: none;
+        background: linear-gradient(to bottom, #005eff, #c72eff);
+    }
+}
+@media (width <= 768px) {
+    .formContainer{
+        width: 100%;
+        padding: 15px;
+    }
+    .basicInfo{
+        display: flex;
+    }
+    textarea{
+        resize: none;
+    }
+}
