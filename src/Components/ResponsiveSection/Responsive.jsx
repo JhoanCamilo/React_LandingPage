@@ -14,7 +14,7 @@ export function ResponsiveSection() {
             </section>
         )
     }
-    if(screen.width <= 767){
+    if (screen.width <= 767){
         return(
             <section className='container-fluid d-block d-md-flex'>
                 <div className={`${Styles.responsiveText}`}>
@@ -27,5 +27,4 @@ export function ResponsiveSection() {
             </section>
         )
     }
-    
 }

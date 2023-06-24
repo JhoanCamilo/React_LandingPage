@@ -10,7 +10,7 @@ export function HeroSection({CTA="Call to action", complement="Complement your C
                 </div>
             </div>
             <div className={`${Styles.heroImage}`}>
-                <img src={image} alt=""/>
+                <img src={image} alt="Conexión global"/>
             </div>
         </section>
     )
