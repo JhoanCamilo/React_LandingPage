@@ -6,15 +6,10 @@ export function ContactForm() {
             <h1 className={`${Style.contactTitle}`}>Let's <strong className={`${Style.strongText}`}>make something great</strong></h1>
             <form action="" className={`container ${Style.formContainer}`}>
                 <div className={`${Style.basicInfo}`}>
-                    <div className="mb-3 col-6">
-                        <label htmlFor="userName" className="form-label">Name:</label>
+                    <div className="col-12">
+                        <label htmlFor="userName" className="form-label">Your name or company name:</label>
                         <input type="text" className="form-control" id="userName"/>
                     </div>
-                    <div className="mb-3 col-6">
-                        <label htmlFor="userName" className="form-label">Last name:</label>
-                        <input type="text" className="form-control" id="userName"/>
-                    </div>
-                    
                 </div>
                 <div className="mb-3">
                     <label htmlFor="userEmail" className="form-label">Email address:</label>
@@ -28,7 +23,6 @@ export function ContactForm() {
                 </div>
                 <button className={`btn ${Style.sendBtn}`}>Send <IoIosSend/></button>
             </form>
-            
         </section>
     )
 }

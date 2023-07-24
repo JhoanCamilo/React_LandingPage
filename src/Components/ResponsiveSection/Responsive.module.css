@@ -5,24 +5,29 @@
     -webkit-text-fill-color: transparent;
 }
 @media (width >= 768px){
-    section{
-        height: fit-content;
-        overflow: hidden;
+    .container{
+        height: 520px;
     }
     .responsiveText{
         width: 50%;
         height: 300px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
-    .responsiveText h3, p{
+    .responsiveText h3{
         text-align: left;
-        padding: 20px;
+        font-size: 40px;
+    }
+    .responsiveText p{
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
     }
     .responsiveImg{
         width: 50%;
+        display: flex;
+        align-items: center;
         background-color: #75c1ff;
         border-top-left-radius: 10% 30%;
         border-top-right-radius: 36% 25%;

@@ -19,9 +19,6 @@
         width:450px;
         padding: 15px;
     }
-    .basicInfo{
-        display: flex;
-    }
     textarea{
         resize: none;
     }

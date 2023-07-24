@@ -10,12 +10,9 @@ function App() {
   return (
     <>
       <NavBar/>
-      <HeroSection
-        CTA='Put your brand online for the world to see'
-        complement='Make your brand grow and be known worldwide, increase your sales with a visually powerful appeal.'
-      />
-      <ResponsiveSection/>
+      <HeroSection/>
       <Carousel/>
+      <ResponsiveSection/>
       <ContactForm/>
       <Footer/>
     </>

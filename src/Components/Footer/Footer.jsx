@@ -7,7 +7,6 @@ export function Footer() {
             <div>
                 <p><IoIosPhonePortrait className={Styles.icon}/>+57 310 508 8636</p>
                 <p><IoIosMailOpen className={Styles.icon}/>jcamonsalve01@gmail.com</p>
-                <p><IoLogoGithub className={Styles.icon}/><a href="https://github.com/JhoanCamilo">Git Hub</a></p>
             </div>
             <div className="d-flex justify-content-center"><img src={image} alt="logo" /></div>
         </footer>
