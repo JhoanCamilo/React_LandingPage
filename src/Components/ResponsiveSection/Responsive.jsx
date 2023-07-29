@@ -6,48 +6,48 @@ function Accordion() {
             <div className="accordion-item">
                 <h2 className="accordion-header">
                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    1. Greater reach
+                    1. Mayor alcance
                 </button>
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#Accordion">
                     <div className="accordion-body">
-                        Reach your audience wherever they are. With a responsive web application, you will be present on all devices, attracting more users and potential customers.
+                        Llega a tu audiencia donde quiera que estén. Con una aplicación web responsiva, estarás presente en todos los dispositivos, atrayendo a más usuarios y potenciales clientes.
                     </div>
                 </div>
             </div>
             <div className="accordion-item">
                 <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    2. Unparalleled user experience
+                    2. Experiencia de usuario inigualable
                 </button>
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#Accordion">
                     <div className="accordion-body">
-                        An optimized and device-friendly interface ensures that your users enjoy a smooth and pleasant navigation, which increases customer retention and satisfaction.
+                        Una interfaz optimizada y adaptada al dispositivo garantiza que tus usuarios disfruten de una navegación suave y placentera, lo que aumenta la retención y la satisfacción del cliente.
                     </div>
                 </div>
             </div>
             <div className="accordion-item">
                 <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    3. Boost your visibility in search engines
+                    3. Impulsa tu visibilidad en los motores de búsqueda
                 </button>
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#Accordion">
                     <div className="accordion-body">
-                        Google and other search engines favor responsive websites in their search results, which improves your ranking and increases traffic to your site.
+                        Google y otros buscadores favorecen los sitios web responsivos en sus resultados de búsqueda, lo que mejora tu posicionamiento y aumenta el tráfico a tu sitio.  
                     </div>
                 </div>
             </div>
             <div className="accordion-item">
                 <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    4. Cost and time savings
+                    4. Ahorro de costos y tiempo
                 </button>
                 </h2>
                 <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#Accordion">
                     <div className="accordion-body">
-                        Instead of developing separate applications for each device, our responsive solution allows you to maintain a single version that fits all screens.
+                        En lugar de desarrollar aplicaciones separadas para cada dispositivo, nuestra solución responsiva te permite mantener una sola versión que se ajusta a todas las pantallas.
                     </div>
                 </div>
             </div>
@@ -62,11 +62,12 @@ export function ResponsiveSection() {
                     <img src={img} alt=""/>
                 </div>
                 <div className={`${Styles.responsiveText}`}>
-                    <h3 className='p-2'>Responsive web sites <strong className={`${Styles.strongText}`}>for all devices</strong></h3>
-                    <p>In today's age, accessibility and user experience are critical to online success. Our responsive web applications
-                     automatically adapt to any device, whether it's a desktop computer, tablet or smartphone, providing a fluid and 
-                     engaging experience regardless of screen size.</p>
-                     <p>Some advantages of this are:</p>
+                    <h3>Sitios web responsivos <strong className={`${Styles.strongText}`}>para todo dispositivo</strong></h3>
+                    <p>En la era actual, la accesibilidad y la experiencia del usuario son fundamentales para el éxito en línea. 
+                    Nuestras aplicaciones web responsivas se adaptan automáticamente a cualquier dispositivo, 
+                    ya sea un ordenador de sobremesa, una tableta o un smartphone, proporcionando una experiencia fluida y atractiva 
+                    independientemente del tamaño de la pantalla.</p>
+                     <p>Algunas ventajas de esto son:</p>
                      <Accordion/>
                 </div>
             </section>
