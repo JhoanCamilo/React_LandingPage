@@ -2,7 +2,7 @@ import Style from './Form.module.css'
 import {IoIosSend} from 'react-icons/io'
 export function ContactForm() {
     return(
-        <section className='container-fluid'>
+        <section className={`container-fluid ${Style.formContainer}`}>
             <h1 className={`${Style.contactTitle}`}>Let's <strong className={`${Style.strongText}`}>make something great</strong></h1>
             <form action="" className={`container ${Style.formContainer}`}>
                 <div className={`${Style.basicInfo}`}>

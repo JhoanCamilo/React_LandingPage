@@ -51,30 +51,6 @@ function Accordion() {
                     </div>
                 </div>
             </div>
-            <div className="accordion-item">
-                <h2 className="accordion-header">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    5. Easy updates
-                </button>
-                </h2>
-                <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#Accordion">
-                    <div className="accordion-body">
-                        With a single code base, updates and changes are implemented quickly and easily, allowing you to keep your application up to date in the competitive digital world.
-                    </div>
-                </div>
-            </div>
-            <div className="accordion-item">
-                <h2 className="accordion-header">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    6. Compatibility with the latest technologies
-                </button>
-                </h2>
-                <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#Accordion">
-                    <div className="accordion-body">
-                        Our responsive web applications are built using the latest best practices and technologies, ensuring that you are at the forefront of digital innovation.
-                    </div>
-                </div>
-            </div>
         </div>
     )
 }
@@ -86,7 +62,7 @@ export function ResponsiveSection() {
                     <img src={img} alt=""/>
                 </div>
                 <div className={`${Styles.responsiveText}`}>
-                    <h3>Responsive web sites <strong className={`${Styles.strongText}`}>for all devices</strong></h3>
+                    <h3 className='p-2'>Responsive web sites <strong className={`${Styles.strongText}`}>for all devices</strong></h3>
                     <p>In today's age, accessibility and user experience are critical to online success. Our responsive web applications
                      automatically adapt to any device, whether it's a desktop computer, tablet or smartphone, providing a fluid and 
                      engaging experience regardless of screen size.</p>
@@ -100,7 +76,7 @@ export function ResponsiveSection() {
         return(
             <section className='container-fluid d-block d-md-flex'>
                 <div className={`${Styles.responsiveText}`}>
-                    <h3>Responsive web sites <strong className={`${Styles.strongText}`}>for all devices</strong></h3>
+                    <h3 className='p-2'>Responsive web sites <strong className={`${Styles.strongText}`}>for all devices</strong></h3>
                     <p>In today's age, accessibility and user experience are critical to online success. Our responsive web applications
                      automatically adapt to any device, whether it's a desktop computer, tablet or smartphone, providing a fluid and
                      engaging experience regardless of screen size.</p>

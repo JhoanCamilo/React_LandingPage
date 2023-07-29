@@ -1,4 +1,7 @@
-
+.navImg{
+    width: 70px;
+    height: 70px;
+}
 @media (width >= 768px){
     .contact_button{
         color: white;

@@ -5,7 +5,7 @@ export function Carousel() {
         return(
             <section className='container-fluid'>
                 <h3 className={Styles.carouselTitle}>From your <strong className={`${Styles.strongText}`}>idea</strong> to <strong className={`${Styles.strongText}`}>reality</strong></h3>
-                <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsum, libero consectetur consequatur ad maiores? Distinctio cum id nobis, nemo qui consectetur vero, ducimus soluta impedit iste fuga aspernatur officia!</p>
+                <p className='text-center'>If you have an idea to promote your brand with a website, but you don't know how to do it, contact us and we will help you take <strong className={`${Styles.strongText}`}>your business to the next level</strong>.</p>
                 <div className={`${Styles.carouselContainer}`}>
                     <img src={idea} className={`${Styles.carouselImage}`} alt="from idea"/>
                 </div>
@@ -16,7 +16,7 @@ export function Carousel() {
         return(
             <section className='container-fluid'>
                 <h3 className={Styles.carouselTitle}>From your <strong className={`${Styles.strongText}`}>idea</strong> to <strong className={`${Styles.strongText}`}>reallity</strong></h3>
-                <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsum, libero consectetur consequatur ad maiores? Distinctio cum id nobis, nemo qui consectetur vero, ducimus soluta impedit iste fuga aspernatur officia!</p>
+                <p className='text-center'>If you have an idea to promote your brand with a website, but you don't know how to do it, contact us and we will help you take <strong className={`${Styles.strongText}`}>your business to the next level</strong>.</p>
                 <div className={`d-block ${Styles.carouselContainer}`}>
                     <img src={idea} className={`${Styles.carouselImage}`} alt="from idea"/>
                 </div>

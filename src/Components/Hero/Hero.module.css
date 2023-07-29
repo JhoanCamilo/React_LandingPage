@@ -30,7 +30,7 @@
 }
 @media (width <= 767px){
     .heroContainer{
-        height: 100vh;
+        height: 70vh;
     }
     .CTA_info{
         width: 100%;
