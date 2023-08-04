@@ -15,8 +15,14 @@
     -webkit-text-fill-color: transparent;
 }
 @media (width >= 768px) {
+    .contactTitle{
+        width: 100vh;
+        text-align: left;
+    }
     .formContainer{
-        width:450px;
+        position: relative;
+        top: 30px;
+        width: 450px;
         padding: 15px;
     }
     textarea{

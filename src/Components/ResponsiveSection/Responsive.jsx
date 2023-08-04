@@ -1,4 +1,5 @@
 import Styles from './Responsive.module.css'
+import './Responsive.css'
 import img from './responsive.svg'
 function Accordion() {
     return(
@@ -62,7 +63,7 @@ export function ResponsiveSection() {
                     <img src={img} alt=""/>
                 </div>
                 <div className={`${Styles.responsiveText}`}>
-                    <h3>Sitios web responsivos <strong className={`${Styles.strongText}`}>para todo dispositivo</strong></h3>
+                    <h3 className='p-2'>Sitios web responsivos <strong className={`${Styles.strongText}`}>para todo dispositivo</strong></h3>
                     <p>En la era actual, la accesibilidad y la experiencia del usuario son fundamentales para el éxito en línea. 
                     Nuestras aplicaciones web responsivas se adaptan automáticamente a cualquier dispositivo, 
                     ya sea un ordenador de sobremesa, una tableta o un smartphone, proporcionando una experiencia fluida y atractiva 
@@ -77,11 +78,12 @@ export function ResponsiveSection() {
         return(
             <section className='container-fluid d-block d-md-flex'>
                 <div className={`${Styles.responsiveText}`}>
-                    <h3 className='p-2'>Responsive web sites <strong className={`${Styles.strongText}`}>for all devices</strong></h3>
-                    <p>In today's age, accessibility and user experience are critical to online success. Our responsive web applications
-                     automatically adapt to any device, whether it's a desktop computer, tablet or smartphone, providing a fluid and
-                     engaging experience regardless of screen size.</p>
-                     <p>Some advantages of this are:</p>
+                    <h3 className='p-2'>Sitios web responsivos <strong className={`${Styles.strongText}`}>para todo dispositivo</strong></h3>
+                    <p>En la era actual, la accesibilidad y la experiencia del usuario son fundamentales para el éxito en línea. 
+                    Nuestras aplicaciones web responsivas se adaptan automáticamente a cualquier dispositivo, 
+                    ya sea un ordenador de sobremesa, una tableta o un smartphone, proporcionando una experiencia fluida y atractiva 
+                    independientemente del tamaño de la pantalla.</p>
+                     <p>Algunas ventajas de esto son:</p>
                      <Accordion/>
                 </div>
                 <div className={`${Styles.responsiveImg}`}>
