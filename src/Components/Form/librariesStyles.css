@@ -1,0 +1,12 @@
+.swal2-title{
+    background: -webkit-linear-gradient(left top, #005eff, #c72eff);
+    background: linear-gradient(to bottom right, #005eff, #c72eff);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+.swal2-confirm{
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: #7a00df !important;
+}
